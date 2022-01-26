@@ -1,0 +1,160 @@
+.column {
+    float: left;
+    height: 100%;
+    width: 30%;
+}
+
+.marginColumn {
+    margin-left: 5%;
+}
+
+.block {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: #b3b3b3 0 0 3px 1px;
+}
+
+.blockTitle {
+    color: white;
+    height: 5vh;
+    padding-bottom: 1%;
+    background-color: #6e7cd7;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.blockImgDiv {
+    height: 100%;
+    float: left;
+    margin-left: 2%;
+}
+
+.blockImgDiv img {
+    height: 90%;
+    position: relative;
+    top: 5%;
+}
+
+.blockTitleDiv {
+    float: left;
+    vertical-align: middle;
+    line-height: 5vh;
+    height: 100%;
+    margin-left: 2%;
+    font-size: 1vw;
+    width: 80%;
+    text-align: center;
+}
+
+.blockContent {
+    text-align: center;
+    color: #00466B;
+}
+
+#firstBlock {
+    height: 45%;
+}
+
+#firstBlock .blockContent {
+    line-height: 31vh;
+    height: 31vh;
+    font-size: 5vw;
+}
+
+#firstBlock .blockContent img {
+    height: 90%;
+    position: relative;
+    top: 5%;
+}
+
+#secondBlock {
+    height: 20%;
+    position: relative;
+    top: 5%;
+}
+
+#secondBlock .blockContent {
+    height: 11vh;
+    line-height: 11vh;
+    font-size: 5vw;
+}
+
+#thirdBlock {
+    height: 20%;
+    position: relative;
+    top: 10%;
+}
+
+#thirdBlock .blockContent {
+    height: 11vh;
+    line-height: 11vh;
+    font-size: 5vw;
+}
+
+#fourthBlock {
+    height: 45%;
+}
+
+#fourthBlock .blockContent {
+    height: 31vh;
+    line-height: 31vh;
+    font-size: 5vw;
+}
+
+#fifthBlock {
+    height: 45%;
+    position: relative;
+    top: 5%;
+}
+
+#fifthBlock .blockContent {
+    height: 31vh;
+    line-height: 31vh;
+    font-size: 5vw;
+}
+
+#fifthBlock .blockContent img {
+    height: 90%;
+    position: relative;
+    top: 5%;
+}
+
+#sixthBlock {
+    height: 70%;
+}
+
+#sixthBlock .blockContent {
+    height: 51vh;
+    font-size: 1vw;
+}
+
+#sixthBlock ul {
+    list-style: none;
+    margin-left: 10%;
+    height: 80%;
+    width: 80%;
+    font-style: italic;
+    text-align: left;
+    position: relative;
+    top: 5%;
+    color: #5e5e5e;
+}
+
+#sixthBlock li {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-bottom: #919191 solid 1px;
+}
+
+#seventhBlock {
+    height: 20%;
+    position: relative;
+    top: 5%;
+}
+
+#seventhBlock .blockContent {
+    height: 11vh;
+    line-height: 11vh;
+    font-size: 5vw;
+}

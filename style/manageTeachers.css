@@ -1,0 +1,7 @@
+.edit {
+    text-decoration: underline;
+}
+
+.edit:hover {
+    cursor: pointer;
+}

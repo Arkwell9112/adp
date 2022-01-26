@@ -1,0 +1,68 @@
+section {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: #b3b3b3 0 0 3px 1px;
+}
+
+#mainTable {
+    width: 90%;
+    margin-left: 5%;
+    height: 85%;
+    position: relative;
+    top: 5%;
+    border-collapse: collapse;
+    text-align: left;
+    color: #5e5e5e;
+    font-size: 1vw;
+}
+
+#mainTable tr:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+
+#mainTable th {
+    padding-left: 0.5vw;
+    color: white;
+    background-color: #6e7cd7;
+    height: 10%;
+}
+
+#mainTable tr:hover {
+    background-color: #d3d6ed;
+}
+
+#mainTable td {
+    padding-left: 0.5vw;
+}
+
+#mainTable a {
+    color: #5e5e5e;
+    text-decoration: underline;
+}
+
+#controlTable {
+    height: 12.5%;
+    width: 95%;
+    margin-left: 2.5%;
+    color: #999999;
+    text-align: center;
+    position: relative;
+    top: 2.5%;
+    font-size: 1vw;
+}
+
+#controlTable input {
+    color: #999999;
+}
+
+.notInput {
+    text-decoration: underline;
+}
+
+.notInput:hover {
+    cursor: pointer;
+}
+
+#controlTable td {
+    width: 20%;
+}

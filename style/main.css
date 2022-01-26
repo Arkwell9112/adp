@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+@keyframes configRotate {
+    from {
+        transform: rotate(0turn);
+    }
+
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+@keyframes notificationRotate {
+    from {
+        transform: rotate(0turn);
+    }
+
+    25% {
+        transform: rotate(0.05turn);
+    }
+
+    50% {
+        transform: rotate(0turn);
+    }
+
+    75% {
+        transform: rotate(0.05turn);
+    }
+
+    100% {
+        transform: rotate(0turn);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #ededed;
+}
+
+nav {
+    position: relative;
+    height: 100%;
+    width: 10%;
+    float: left;
+    background-color: #2BABE0;
+}
+
+#mainLogoDiv {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+#mainLogo {
+    height: 100%;
+    position: relative;
+    top: 20%;
+}
+
+#navTitleDiv {
+    position: relative;
+    top: 2.5%;
+    width: 100%;
+    height: 10%;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 7vh;
+    color: white;
+}
+
+#mainNavDiv {
+    height: 60%;
+    width: 100%;
+    position: relative;
+    top: 2.5%;
+}
+
+#navList {
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+#navList .icon {
+    height: 30%;
+    margin-left: -10px;
+    margin-right: 10px;
+    margin-bottom: -7px;
+}
+
+#navList li {
+    height: 16.5%;
+    width: 80%;
+    position: relative;
+    left: 10%;
+
+}
+
+#navList li a {
+    font-size: 0.80vw;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    white-space: nowrap;
+}
+
+#footerLogoDiv {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    height: 9%;
+    width: 100%;
+
+
+}
+
+#footerLogoDiv hr {
+    width: 80%;
+    height: 2px;
+    color: #ffffff;
+    background-color: #ffffff;
+    text-align: center;
+    margin: auto;
+
+}
+
+#footerLogo {
+    height: 60%;
+    margin: 8% auto;
+}
+
+header {
+    height: 10%;
+    width: 90%;
+    background-color: #0c4464;
+    box-shadow: 0 0 5px 2px #156694;
+    float: left;
+}
+
+#searchDiv {
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    float: left;
+}
+
+#searchLogo {
+    height: 30%;
+    position: relative;
+    top: 35%;
+}
+
+#titleDiv {
+    float: left;
+    width: 60%;
+    height: 100%;
+    vertical-align: middle;
+    line-height: 10vh;
+    position: relative;
+}
+
+#titleSpan {
+    margin-left: 15%;
+    font-size: 5vh;
+    color: white;
+}
+
+#titleDivBorderRight {
+    position: absolute;
+    right: 0;
+    top: 10%;
+    height: 80%;
+    border: 1px solid white;
+}
+
+#controlDiv {
+    float: left;
+    width: 10%;
+    height: 100%;
+    text-align: center;
+}
+
+.control {
+    height: 40%;
+    position: relative;
+    top: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#config:hover {
+    animation-name: configRotate;
+    animation-duration: 0.5s;
+}
+
+#notification:hover {
+    animation-name: notificationRotate;
+    animation-duration: 0.5s;
+}
+
+/* Le footer a été supprimé
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    height: 5%;
+    width: 90%;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 5vh;
+    background-color: #3BF0F7;
+    box-shadow: 0 0 5px 1px #41B1E0;
+    color: white;
+}
+*/
+
+section {
+    height: 80%;
+    width: 80%;
+    position: relative;
+    top: 5%;
+    margin-left: 5%;
+    float: left;
+}

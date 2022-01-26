@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+@keyframes configRotate {
+    from {
+        transform: rotate(0turn);
+    }
+
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+@keyframes notificationRotate {
+    from {
+        transform: rotate(0turn);
+    }
+
+    25% {
+        transform: rotate(0.05turn);
+    }
+
+    50% {
+        transform: rotate(0turn);
+    }
+
+    75% {
+        transform: rotate(0.05turn);
+    }
+
+    100% {
+        transform: rotate(0turn);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #2BABE0;
+}
+
+#mainLogoDiv {
+    width: 100%;
+    height: 22%;
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+}
+
+#mainLogo {
+    height: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+
+
+#authDiv {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+form {
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    border-radius: 7px;
+    background: #fff;
+    box-shadow: 0px 0px 20px 0px #c9c8c7;
+}
+
+#authDiv h1 {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #2BABE0;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+input[type=submit]:hover {
+    background-color: white;
+    color: #2BABE0;
+    border: 1px solid #2BABE0;
+}
+
+
+#navTitleDiv {
+    position: relative;
+    top: 2.5%;
+    width: 100%;
+    height: 10%;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 7vh;
+    color: white;
+}
+
+#mainNavDiv {
+    height: 60%;
+    width: 100%;
+    position: relative;
+    top: 2.5%;
+}
+
+#navList {
+    height: 100%;
+    width: 100%;
+    list-style-type: disclosure-closed;
+    list-style-position: inside;
+}
+
+#navList li {
+    height: 16.5%;
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+#navList li a {
+    font-size: 1vw;
+    text-decoration: none;
+    color: white;
+}
+
+#footerLogoDiv {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    height: 10%;
+    width: 100%;
+}
+
+#footerLogo {
+    height: 100%;
+    position: relative;
+    bottom: 20%;
+}
+
+header {
+    height: 10%;
+    width: 90%;
+    background-color: #3BF0F7;
+    box-shadow: 0 0 5px 2px #41B1E0;
+    float: left;
+}
+
+#searchDiv {
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    float: left;
+}
+
+#searchLogo {
+    height: 30%;
+    position: relative;
+    top: 35%;
+}
+
+#titleDiv {
+    float: left;
+    width: 60%;
+    height: 100%;
+    vertical-align: middle;
+    line-height: 10vh;
+    position: relative;
+}
+
+#titleSpan {
+    margin-left: 15%;
+    font-size: 5vh;
+    color: white;
+}
+
+#titleDivBorderRight {
+    position: absolute;
+    right: 0;
+    top: 10%;
+    height: 80%;
+    border: 1px solid white;
+}
+
+#controlDiv {
+    float: left;
+    width: 10%;
+    height: 100%;
+    text-align: center;
+}
+
+.control {
+    height: 40%;
+    position: relative;
+    top: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#config:hover {
+    animation-name: configRotate;
+    animation-duration: 0.5s;
+}
+
+#notification:hover {
+    animation-name: notificationRotate;
+    animation-duration: 0.5s;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    height: 5%;
+    width: 90%;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 5vh;
+    background-color: #3BF0F7;
+    box-shadow: 0 0 5px 1px #41B1E0;
+    color: white;
+}
+
+section {
+    height: 80%;
+    width: 80%;
+    position: relative;
+    top: 2.5%;
+    margin-left: 5%;
+    float: left;
+}
